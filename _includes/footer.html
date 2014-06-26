@@ -1,18 +1,10 @@
-<footer class="site-footer">
+<footer class="blog-footer">
 
   <div class="wrap">
-
-    <h2 class="footer-heading">Contact</h2>
-
     <div class="footer-col-1 column">
+      <h2 class="footer-heading">Contact</h2>
       <ul>
-        <li>{{ site.title }}</li>
         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-col-2 column">
-      <ul>
         <li>
           <a href="https://github.com/{{ site.username }}">
             <span class="icon github">
@@ -32,13 +24,19 @@
             <span class="username">{{ site.username }}</span>
           </a>
         </li>
+        <li><p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p></li>
       </ul>
     </div>
 
     <div class="footer-col-3 column">
-      <p class="text">{{ site.description }}</p>
+      <!--<p class="text">{{ site.description }}</p>-->
     </div>
+    <div class="clearfix"></div>
 
   </div>
 
 </footer>
+<!-- Compiled and minified jQuery -->
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

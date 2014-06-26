@@ -7,11 +7,21 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">{{ site.title }}</h1>
+        <p class="lead blog-description">Blog about things and stuff.</p>
       </div>
-    </div>
+
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+            {{ content }}
+        </div>
+        {% include sidebar.html %}
+      </div><!-- /.row -->
+    
+    </div><!-- /.container -->
 
     {% include footer.html %}
 
