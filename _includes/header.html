@@ -2,9 +2,7 @@
     <div class="container">
     	<nav class="blog-nav">
         	<a class="blog-nav-item" href="/">Home</a>
-          	{% for page in site.pages %}
-            	<a class="blog-nav-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          	{% endfor %}
+        	<a class="blog-nav-item" href="/about/">About</a>
         </nav>
      </div>
 </header>
