@@ -43,9 +43,9 @@ Here is a really simple Bootstrap starter template.
 
 That's it, you are not able to start using all of the tools bootstrap has to offer.
 
-In this turorial we are going to build a page consisting of some of the commonly used compoments of Bootstrap. it looks like this:
+In this turorial we are going to build a page consisting of some of the commonly used compoments of Bootstrap. It looks like this:
 
-![Demo Page]({{ site.url }}/img/demo.jpg)
+<img class="img-responsive" src="{{ site.url }}/img/demo.jpg">
 
 The goal is to build this page using Bootstrap components and make it fully responsive.
 
@@ -60,7 +60,7 @@ The first portion of the page uses a component of Bootstrap that is widely used 
 </div>
 {% endhighlight %}
 
-The next section of the page is another popular component which has been greatly simplified with the use of Bootstrap, the <a href="http://getbootstrap.com/javascript/#carousel" target="_blank">Carousel</a>. With not too many lines of markup you can implement a simple Carousel slider in a plug an play fashion.
+The next section of the page is another popular component which has been greatly simplified with the use of Bootstrap, the <a href="http://getbootstrap.com/javascript/#carousel" target="_blank">Carousel</a>. With not too many lines of markup you can implement a simple Carousel slider in a plug and play fashion.
 
 {% highlight html %}
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -94,7 +94,7 @@ The next section of the page is another popular component which has been greatly
 
 That's it, you now have a simple slider in which you can place the content you desire.
 
-For the last section of the page we will use another very useful Bootstrap componenet, the <a href="http://getbootstrap.com/css/#grid" target="_blank">Grid System</a>. Grid systems are used for creating page layouts through a series of rows and columns that house your content. For this page we will use a grid system that starts out stacked on mobile devices and tablet devices (the extra small to small range) before becoming horizontal on desktop (medium) devices.
+For the last section of the page we will use another very useful Bootstrap componenet, the <a href="http://getbootstrap.com/css/#grid" target="_blank">Grid System</a>. Grid systems are used for creating page layouts through a series of rows and columns that house your content. For this page we will use a grid system that starts out stacked on mobile devices and tablet devices (the extra small to small range) before becoming horizontal on desktop (medium) devices. Mess around with the different grid options to see how the layout changes on both mobile and desktop.
 
 {% highlight html %}
 <div id="bur-grid">
@@ -154,3 +154,6 @@ For the last section of the page we will use another very useful Bootstrap compo
 </div>
 {% endhighlight %}
 
+Be sure to read through all the links provided for each component to get a more complete and thorough explanation and to explore the components more.
+
+You can download all of the files for the demo page <a href="http://www.albertgu.com/projects/bootstrap-starter/bootstrap-starter.zip">here</a>.
