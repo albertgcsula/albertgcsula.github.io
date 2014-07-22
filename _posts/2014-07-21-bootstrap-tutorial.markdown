@@ -2,7 +2,7 @@
 layout: post
 title:  "Bootstrap Tutorial"
 date:   2014-07-21 12:00:00
-categories: projects, tutorials
+categories: tutorials
 ---
 
 This tutorial will show how to create a simple bootstrap boilerplate and implement some simple and some of the most common Bootstrap components.
