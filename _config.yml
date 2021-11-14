@@ -1,9 +1,7 @@
 # Site settings
 title: Albert Gutierrez
 email: albertgcsula@gmail.com
-description: "Albert Gutierrez. Alberto Gutierrez. Web Development. AngularJS. Angular JS. InstaAngular. Insta-Angular. Instagram AngularJS"
-baseurl: "http://blog.albertgu.com"
-url: "http://blog.albertgu.com"
+description: "Albert Gutierrez. Alberto Gutierrez. Web Development."
 username: "albertgcsula"
 
 # Build settings
